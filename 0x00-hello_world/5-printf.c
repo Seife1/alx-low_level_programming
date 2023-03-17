@@ -2,6 +2,7 @@
 
 /*
  * main - Print the content with printf
+ *Return : 0 successed
  */
 
 int main(void)
