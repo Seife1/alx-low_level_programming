@@ -1,10 +1,10 @@
-#includes <stdio.h>
-/*
- * Print all the content with puts
- * End with a value 0
+#include <stdio.h>
+/**
+ * main - Print all the content with puts
+ * Return 0 (success)
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
+puts("\"Programming is like building a multilingual puzzle,\n");
 return (0);
 }
