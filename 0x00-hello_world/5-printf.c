@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Print the content with printf
- * Return:0 successed
+ * Return 0 (success)
  */
 
 int main(void)
