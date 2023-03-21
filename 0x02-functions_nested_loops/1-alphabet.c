@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphaber - print the lowercase letters
  * Return: Always 0.
  */
 
