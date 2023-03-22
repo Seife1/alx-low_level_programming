@@ -16,9 +16,8 @@ int main(void)
 		k = sum;
 		if ((unsigned long)sum <= 4000000 && (unsigned long)sum % 2 == 0)
 		{
-			printf("%lu, ", (unsigned long)sum);
+			printf("%lu\n", (unsigned long)sum);
 		}
 	}
-	printf("\n");
 	return (0);
 }
