@@ -21,11 +21,10 @@ int main(void)
 		n = n / divisor;
 		if (n == 1)
 		{
-			printf("%ld is the largest prime factor !", maxf);
+			printf("%ld is the largest prime factor!\n", maxf);
 			break;
 		}
 	}
 	}
-	printf("\n");
 	return (0);
 }
