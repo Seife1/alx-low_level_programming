@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -14,20 +15,22 @@ int main(void)
 	{
 		/*Multiples of both 3 and 5*/
 
-		if (i % 5 == 0 && i % 3 == 0)
-			printf("FizzBuzz ");
+		if ((i % 5 == 0) && (i % 3 == 0))
+			printf("FizzBuzz");
 
 		/*Multiples of 5*/
 
 		else if (i % 5 == 0)
-			printf("Buzz ");
+			printf("Buzz");
 
 		/*Multiples of 3*/
 
 		else if (i % 3 == 0)
-			printf("Fizz ");
+			printf("Fizz");
 		else
-			printf("%d ", i);
+			printf("%d", i);
+		if (i != 100)
+			printf(" ");
 	}
 	printf("\n");
 	return (0);
