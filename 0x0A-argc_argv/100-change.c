@@ -27,13 +27,10 @@ int main(int argc, char *argv[])
 	}
 
 	quarters = cents / 25;
-
 	cents -= quarters * 25;
 	dimes = cents / 10;
-
 	cents -= dimes * 10;
 	nickles = cents / 5;
-
 	cents -= nickles * 5;
 	pennies = cents;
 
