@@ -5,14 +5,14 @@
 #include <stddef.h>
 
 /**
- * re -  realocate memory for an array of pointer
+ * _re -  realocate memory for an array of pointer
  * @s: size of new list > old list always
  * @list: old list
  * @new: new node to be add to the list
  * Return: pointer to the new list
  */
 
-listint_t **re(listint_t **list, size_t s, listint_t *new)
+listint_t **_re(listint_t **list, size_t s, listint_t *new)
 {
 	listint_t **newLst;
 	size_t size;
@@ -56,7 +56,7 @@ size_t free_listint_safe(listint_t **h)
 			}
 		}
 		n++;
-		lst = re(lst, n, *h);
+		lst = _re(lst, n, *h);
 		next = (*h)->next;
 		free(*h);
 		*h = next;
